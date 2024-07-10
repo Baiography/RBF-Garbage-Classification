@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id Btn_take_pict
+id Btn_upload
+id IV_camera_view
+id TV_classification_result
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string BACKEND_URL
+string app_name
+string desc_Btn_take_pict
+string desc_Btn_upload
+string desc_IV_camera_view
+style Base.Theme.Assignment6Camera
+style Theme.Assignment6Camera
+xml backup_rules
+xml data_extraction_rules
