@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/IV_camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/desc_IV_camera_view"
+        />
+
+    <TextView
+        android:id="@+id/TV_classification_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/IV_camera_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/Btn_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="8dp"
+        android:visibility="gone"
+        android:text="@string/desc_Btn_upload"
+        />
+
+    <Button
+        android:id="@+id/Btn_take_pict"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/TV_classification_result"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:contentDescription="@string/desc_Btn_take_pict"
+        />
+
+</RelativeLayout>
