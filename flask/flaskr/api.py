@@ -10,11 +10,27 @@ import tensorflow as tf
 
 bp = Blueprint("api_bp", __name__)
 STORAGE_PATH = os.path.join(os.getcwd(), "resources", "public")
-pca = joblib.load("C:/Users/G.I/flask/models/pca_model.pkl")
-scaler = joblib.load("C:/Users/G.I/flask/models/scaler_model.pkl")
-interpreter = tf.lite.Interpreter(model_path="C:/Users/G.I/flask/models/model.tflite")
+
+MODEL_DIR = os.path.join(os.getcwd(), "flask", "models")
+
+pca_model_path = os.path.join(MODEL_DIR, "pca_model.pkl")
+
+scaler_model_path = os.path.join(MODEL_DIR, "scaler_model.pkl")
+
+tflite_model_path = os.path.join(MODEL_DIR, "model.tflite")
+
+
+
+pca = joblib.load(pca_model_path)
+
+scaler = joblib.load(scaler_model_path)
+
+interpreter = tf.lite.Interpreter(model_path=tflite_model_path)
+
 interpreter.allocate_tensors()
+
 input_details = interpreter.get_input_details()
+
 output_details = interpreter.get_output_details()
 
 def classify_image(image_path):
