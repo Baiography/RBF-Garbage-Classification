@@ -12,13 +12,8 @@ bp = Blueprint("api_bp", __name__)
 STORAGE_PATH = os.path.join(os.getcwd(), "resources", "public")
 
 MODEL_DIR = os.path.join(os.getcwd(), "models")
-<<<<<<< HEAD
 
 pca_model_path = os.path.join(MODEL_DIR, "pca_model.pkl")
-=======
-
-pca_model_path = os.path.join(MODEL_DIR, "pca_model.pkl")
->>>>>>> 06ef5db0ef4148ff61cdb2f70babd76b4d2d1142
 
 scaler_model_path = os.path.join(MODEL_DIR, "scaler_model.pkl")
 
