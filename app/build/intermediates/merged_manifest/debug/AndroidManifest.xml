@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.assignment6_camera"
+    package="com.RBF_Garbage_Classification"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -13,10 +13,10 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <permission
-        android:name="com.assignment6_camera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.RBF_Garbage_Classification.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.assignment6_camera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.RBF_Garbage_Classification.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -30,9 +30,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.Assignment6Camera" >
+        android:theme="@style/Theme.RBF_Garbage_Classification" >
         <activity
-            android:name="com.assignment6_camera.MainActivity"
+            android:name="com.RBF_Garbage_Classification.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -43,7 +43,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.assignment6_camera.androidx-startup"
+            android:authorities="com.RBF_Garbage_Classification.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.assignment6_camera.app-mergeDebugResources-29:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.RBF_Garbage_Classification.app-mergeDebugResources-29:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "C:\\Users\\G.I\\.gradle\\caches\\transforms-3\\d16141837b1dfced26fb2d5628bc2c81\\transformed\\core-1.13.1\\res\\values-en-rXC\\values-en-rXC.xml",

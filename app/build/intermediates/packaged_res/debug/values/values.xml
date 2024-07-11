@@ -2,14 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="BACKEND_URL">https://2692-158-140-163-53.ngrok-free.app</string>
-    <string name="app_name">Camera App</string>
+    <string name="BACKEND_URL">https://23b8-158-140-163-39.ngrok-free.app</string>
+    <string name="app_name">RBF Garbage Classification</string>
     <string name="desc_Btn_take_pict">Shot Button</string>
     <string name="desc_Btn_upload">Upload Photo</string>
     <string name="desc_IV_camera_view">Camera View</string>
-    <style name="Base.Theme.Assignment6Camera" parent="Theme.Material3.DayNight.NoActionBar">
-        
-        
-    </style>
-    <style name="Theme.Assignment6Camera" parent="Base.Theme.Assignment6Camera"/>
+    <style name="Theme.RBF_Garbage_Classification" parent="Theme.Material3.DayNight.NoActionBar"/>
 </resources>

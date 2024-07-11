@@ -16,6 +16,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.graphics.drawable.toBitmap
+import com.RBF_Garbage_Classification.R
 
 class MainActivity : AppCompatActivity(), OnClickListener, MainActivityCallback {
     private val _controller = MainActivityController(this, this)

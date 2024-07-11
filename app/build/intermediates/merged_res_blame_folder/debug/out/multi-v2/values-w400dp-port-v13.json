@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.assignment6_camera.app-mergeDebugResources-29:/values-w400dp-port-v13/values-w400dp-port-v13.xml",
+            "outputFile": "com.RBF_Garbage_Classification.app-mergeDebugResources-29:/values-w400dp-port-v13/values-w400dp-port-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\G.I\\.gradle\\caches\\transforms-3\\337e34332cf4bec5cb62ffb73e0c3b27\\transformed\\material-1.12.0\\res\\values-w400dp-port-v13\\values-w400dp-port-v13.xml",

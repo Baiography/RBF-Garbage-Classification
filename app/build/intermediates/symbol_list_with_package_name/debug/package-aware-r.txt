@@ -1,4 +1,4 @@
-com.assignment6_camera
+com.RBF_Garbage_Classification
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -4057,7 +4057,6 @@ style Base_Theme_AppCompat_Light_Dialog_Alert
 style Base_Theme_AppCompat_Light_Dialog_FixedSize
 style Base_Theme_AppCompat_Light_Dialog_MinWidth
 style Base_Theme_AppCompat_Light_DialogWhenLarge
-style Base_Theme_Assignment6Camera
 style Base_Theme_Material3_Dark
 style Base_Theme_Material3_Dark_BottomSheetDialog
 style Base_Theme_Material3_Dark_Dialog
@@ -4089,6 +4088,7 @@ style Base_Theme_MaterialComponents_Light_Dialog_Bridge
 style Base_Theme_MaterialComponents_Light_Dialog_FixedSize
 style Base_Theme_MaterialComponents_Light_Dialog_MinWidth
 style Base_Theme_MaterialComponents_Light_DialogWhenLarge
+style Base_Theme_RBF_Garbage_Classification
 style Base_ThemeOverlay_AppCompat
 style Base_ThemeOverlay_AppCompat_ActionBar
 style Base_ThemeOverlay_AppCompat_Dark
@@ -4514,7 +4514,6 @@ style Theme_AppCompat_Light_Dialog_MinWidth
 style Theme_AppCompat_Light_DialogWhenLarge
 style Theme_AppCompat_Light_NoActionBar
 style Theme_AppCompat_NoActionBar
-style Theme_Assignment6Camera
 style Theme_Design
 style Theme_Design_BottomSheetDialog
 style Theme_Design_Light
@@ -4598,6 +4597,7 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
+style Theme_RBF_Garbage_Classification
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark

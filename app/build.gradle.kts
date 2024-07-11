@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.assignment6_camera"
+    namespace = "com.RBF_Garbage_Classification"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.assignment6_camera"
+        applicationId = "com.RBF_Garbage_Classification"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

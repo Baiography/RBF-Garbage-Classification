@@ -16,7 +16,7 @@ string app_name
 string desc_Btn_take_pict
 string desc_Btn_upload
 string desc_IV_camera_view
-style Base.Theme.Assignment6Camera
-style Theme.Assignment6Camera
+style Base.Theme.RBF_Garbage_Classification
+style Theme.RBF_Garbage_Classification
 xml backup_rules
 xml data_extraction_rules

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.assignment6_camera.app-mergeDebugResources-29:/values-te/values-te.xml",
+            "outputFile": "com.RBF_Garbage_Classification.app-mergeDebugResources-29:/values-te/values-te.xml",
             "map": [
                 {
                     "source": "C:\\Users\\G.I\\.gradle\\caches\\transforms-3\\c5ac3099cfd205a41c77412efdf45980\\transformed\\appcompat-1.7.0\\res\\values-te\\values-te.xml",
