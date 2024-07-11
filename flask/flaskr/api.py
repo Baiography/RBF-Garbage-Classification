@@ -11,7 +11,7 @@ import tensorflow as tf
 bp = Blueprint("api_bp", __name__)
 STORAGE_PATH = os.path.join(os.getcwd(), "resources", "public")
 
-MODEL_DIR = os.path.join(os.getcwd(), "flask", "models")
+MODEL_DIR = os.path.join(os.getcwd(), "models")
 
 pca_model_path = os.path.join(MODEL_DIR, "pca_model.pkl")
 
